@@ -8,5 +8,6 @@ namespace CapaClases
 {
     public class Genero
     {
+        //id y genero
     }
 }
