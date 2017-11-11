@@ -76,5 +76,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaClases\CapaClases.csproj">
+      <Project>{20166e92-b5ed-410e-a575-a92fbd996d71}</Project>
+      <Name>CapaClases</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

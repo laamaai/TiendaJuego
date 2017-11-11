@@ -8,6 +8,17 @@ namespace CapaClases
 {
     public class Genero
     {
-        //id y genero
+       
+       //Propiedades
+        public int Id { get; set; }
+        public string TipoGenero { get; set; }
+        //Constructores
+        public Genero() { }
+        public Genero(int id, string genero)
+        {
+            this.Id = id;
+            this.TipoGenero = genero;
+        }
+
     }
 }
