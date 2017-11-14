@@ -1,7 +1,12 @@
 ﻿using System.Collections.Generic;
 using CapaDatos.DSTiendaJuegosTableAdapters;
 using CapaClases;
-
+//Class Curso
+//public string Nombre
+// public static string Numero
+//Para acceder a nombre: Curso cur new Curso()
+//cur.nombre
+//Curso.numero (tiene que ser la clase, no hay que crear ningun objeto)
 namespace CapaDatos{
     public class Gestion
     {
