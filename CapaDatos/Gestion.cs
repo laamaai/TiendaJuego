@@ -10,7 +10,7 @@ using CapaClases;
 namespace CapaDatos{
     public class Gestion
     {
-        private DSTiendaJuegos ds; //DataSet
+        private DSTiendaJuegos ds; //DataSet l
 
         public Gestion() 
         {
